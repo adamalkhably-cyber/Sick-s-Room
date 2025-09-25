@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sick's Room</title>
+<body>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            overflow-x: hidden;
+        }
+        h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #000000;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #000000;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #ffffff;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+        }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration-style: double;
+        }
+        .content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.7;
+        }
+        .top-right {
+            display: inline-block;
+            font-size: 2.5em;
+            color: rgb(0, 0, 0);
+            background-color: #000000;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            text-decoration: none;
+            margin: 30px auto 0 auto;
+            transition: background 0.2s, color 0.2s;
+        }
+        li {
+            display: inline;
+            margin: 0 15px;
+        }
+        li a {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    </style>
+     <video autoplay muted loop class="video-background">
+        <source src="two-heavens-as-one-vagabond.3840x2160.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="header-row">
+        <h2>PROJECTS</h2>
+    <div class="top right">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>Here you can find a showcase of my work.</h1>
+        <h2>Project 1</h2>
+        <p>Description of Project 1</p>
+        <img src="project-1.PNG" alt="Project 1" style="max-width: 100%; height:auto; margin: 20px 0; display: block; margin-left: auto; margin-right: auto;">
+    </div>
+</body>
+</html>
